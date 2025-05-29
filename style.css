@@ -1,0 +1,129 @@
+/*Laura, Leonardo e Samuel*/
+body {
+  font-family: monospace;
+  background-image: url(fundo.png);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color:#338c38;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center; 
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.50);
+}
+
+button {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: monospace;
+}
+input{
+  padding: 8px;
+  margin: 5px 0;
+  width: 97%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: monospace;
+}
+#corGrafico{
+  padding: 8px;
+  margin: 5px 0;
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: monospace;
+}
+#corPontos{
+  padding: 8px;
+  margin: 5px 0;
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #338c38;
+}
+
+.grafico-container {
+  background-image: url("f6cfbf7e-8700-4fe5-b27b-1f0c40f44996.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 500px;
+  margin: 20px auto;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #338c38;
+  width: 100%;
+  height: 100px; 
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; 
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.50);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #adcbac; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #638468; 
+}

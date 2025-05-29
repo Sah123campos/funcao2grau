@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Gráfico de Equação do 2º Grau</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@2.0.1/dist/chartjs-plugin-zoom.min.js"></script>
+</head>
+<body>
+  <!--Laura, Leonardo e Samuel-->
+  <header>
+    <h2>Gráfico de Equação do 2º Grau</h2>
+  </header>
+
+  <div class="container">
+    <label>Coeficiente a:</label>
+    <input type="number" id="a" placeholder="Ex: 1">
+    <label>Coeficiente b:</label>
+    <input type="number" id="b" placeholder="Ex: -3">
+    <label>Coeficiente c:</label>
+    <input type="number" id="c" placeholder="Ex: 2">
+
+    <div style="display: flex; justify-content: space-between; gap: 10px;">
+      <div style="flex: 1;">
+        <label>Cor da linha do gráfico:</label>
+        <input type="color" id="corGrafico" value="#008000">
+      </div>
+      <div style="flex: 1;">
+        <label>Cor dos pontos principais:</label>
+        <input type="color" id="corPontos" value="#ff0000">
+      </div>
+    </div>
+
+    <button onclick="gerarGrafico()">Gerar Gráfico</button>
+
+    <div id="info-equacao" class="info-equacao" style="margin-top: 20px; padding: 10px; background: #f0f0f0; border-radius: 8px;">
+    </div>
+
+    <div style="margin-top: 10px;">
+      <button onclick="ativarZoom()">Ativar Zoom</button>
+      <button onclick="desativarZoom()">Desativar Zoom</button>
+      <button onclick="resetarZoom()">Resetar Zoom</button>
+    </div>
+
+    <div class="grafico-container">
+      <canvas id="grafico" width="500" height="500"></canvas>
+    </div>
+  </div>
+
+  <footer>
+    <p>Criado Por Samuel, Laura e Leonardo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
